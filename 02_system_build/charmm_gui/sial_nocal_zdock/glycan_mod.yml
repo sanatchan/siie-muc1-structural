@@ -1,0 +1,215 @@
+---
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":460}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARA
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":480}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARB
+- 
+  chain: A
+  type: ligand
+  grs: |
+    1 BGAL
+    2 - 23A: ANE5AC
+  segid: CARC
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":500}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARD
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":520}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARE
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":540}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARF
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":560}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARG
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":580}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARH
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":600}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARI
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":620}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARJ
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":640}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARK
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":451}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARL
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":471}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARM
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":491}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARN
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":511}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARO
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":531}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARP
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":551}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARQ
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":571}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CARR
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":591}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARS
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":611}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  segid: CART
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":631}'
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  segid: CARU

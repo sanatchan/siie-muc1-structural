@@ -1,0 +1,9 @@
+condition	type	repo_dir	original_dir_in_final_structural_project	production	status
+sial_Ca	complex	03_md/complex/sial_Ca	sims/fxd_sialcal_gromacs	500 ns (1 x 250M steps, 2 fs)	done; nojump + water-stripped xtc on disk
+sial_noCa	complex	03_md/complex/sial_noCa	sims/fxd_sial_nocal_gromacs	500 ns	done (resumed from checkpoint); nojump + water-stripped xtc on disk
+desial_Ca	complex	03_md/complex/desial_Ca	sims/desial_cal_gromacs	500 ns	done (step5_2 segment also present); nojump + water-stripped xtc on disk
+desial_noCa	complex	03_md/complex/desial_noCa	sims/desial_nocal_gromacs	500 ns	done; nojump + water-stripped xtc on disk
+siie_Ca	control	03_md/controls/siie_Ca	monomer_prod/siie_cal	10 ns (10 x 1 ns segments)	done; merged.xtc on disk
+siie_noCa	control	03_md/controls/siie_noCa	monomer_prod/siie_nocal	-	minimization only; equilibration/production not run
+muc1_sial	control	03_md/controls/muc1_sial	monomer_prod/muc1sial20gly	10 ns (10 x 1 ns)	done
+muc1_desial	control	03_md/controls/muc1_desial	monomer_prod/muc1_desial_20gly	10 ns (10 x 1 ns)	done

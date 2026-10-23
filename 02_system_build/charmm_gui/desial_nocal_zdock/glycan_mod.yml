@@ -1,0 +1,181 @@
+---
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":451}'
+  grs: |
+    1 AGALNA
+    2 - 13B: BHEP_7DEO
+  segid: CARA
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":471}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARB
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":491}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARC
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":511}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARD
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":531}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARE
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":551}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BHEP_7DEO
+  segid: CARF
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":571}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARG
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":591}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARH
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":611}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARI
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"THR","resid":631}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARJ
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":460}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARK
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":480}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARL
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":500}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARM
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":520}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARN
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":540}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARO
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":560}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARP
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":580}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CARQ
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":600}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARR
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":640}'
+  grs: |
+    1 BGALNA
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - 13B: BGAL
+  segid: CARS
+- 
+  chain: A
+  type: o-linked
+  prot: '{"segid":"PROA","resname":"SER","resid":620}'
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+  segid: CART

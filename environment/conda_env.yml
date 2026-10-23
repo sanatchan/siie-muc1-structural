@@ -1,0 +1,11 @@
+name: siie-muc1
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - pdb-tools
+  - pip
+  - pip:
+      - glycosylator
+# GROMACS lives in its own env (`conda activate gromacs` in the sbatch scripts)

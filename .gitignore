@@ -1,0 +1,20 @@
+# trajectories, checkpoints, binaries (kept on disk/HPC, see MANIFEST.tsv)
+*.xtc
+*.trr
+*.cpt
+*.edr
+*.tpr
+*.log
+*.err
+*.psf
+*.crd
+*.mp4
+*.zip
+*.tar.gz
+*.ndx
+step*_input.pdb
+step*_input.gro
+\#*\#
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/

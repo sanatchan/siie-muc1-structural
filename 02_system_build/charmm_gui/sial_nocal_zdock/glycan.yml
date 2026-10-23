@@ -1,0 +1,391 @@
+Warning: Please check structure
+Warning: new linkage types are detected {'y': 62.76, 'z': 38.71, 'resid': 4914, 'name': 'O4', 'chain': 'A', 'bfactor': 0.0, '_name': '.O4', 'segid': '', 'x': 70.23, 'resname': 'NAG', 'ccd': 'NAG', 'alt': ' ', 'property': 'HETATM', 'type': 'O', 'id': 1543, 'resid_ccd': '4914'} {'property': 'ATOM', 'resid': 4861, 'name': 'CG', 'chain': 'A', 'bfactor': 0.0, '_name': '.CG', 'segid': '', 'resname': 'ARG', 'ccd': 'ARG', 'y': 63.88, 'x': 69.53, 'alt': ' ', 'z': 38.83, 'type': 'C', 'id': 6874, 'resid_ccd': '4861'}
+- chain: A
+  glycan_list:
+    A: [4910, 4911, 4912]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4910, 4911, 4912]
+  residues:
+    1: {ires: 1, linkage: SGPA, linkage_patch: SGPA, linked_chain: A, linked_ires: null, linked_resid: 460, resid: 4910, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4910, resid: 4911, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4911, resid: 4912, resname: ANE5AC}
+  root: 4910
+  segid: CARA
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4913, 4917, 4918]
+  grs: |
+    1 BGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4913, 4917, 4918]
+  residues:
+    1: {ires: 1, linkage: SGPB, linkage_patch: SGPB, linked_chain: A, linked_ires: null, linked_resid: 480, resid: 4913, resname: BGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4913, resid: 4917, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4917, resid: 4918, resname: ANE5AC}
+  root: 4913
+  segid: CARB
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4915, 4916]
+  grs: |
+    1 BGAL
+    2 - 23A: ANE5AC
+  patches: {}
+  residue_list: [4915, 4916]
+  residues:
+    1: {ires: 1, linkage: null, linkage_patch: null, linked_chain: null, linked_ires: null, linked_resid: null, resid: 4915, resname: BGAL}
+    2: {ires: 2, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 1, linked_resid: 4915, resid: 4916, resname: ANE5AC}
+  root: 4915
+  segid: CARC
+  type: ligand
+- chain: A
+  glycan_list:
+    A: [4919, 4920, 4921]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4919, 4920, 4921]
+  residues:
+    1: {ires: 1, linkage: SGPA, linkage_patch: SGPA, linked_chain: A, linked_ires: null, linked_resid: 500, resid: 4919, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4919, resid: 4920, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4920, resid: 4921, resname: ANE5AC}
+  root: 4919
+  segid: CARD
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4922, 4923, 4924, 4925, 4926, 4927]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4922, 4923, 4924, 4925, 4926, 4927]
+  residues:
+    1: {ires: 1, linkage: SGPB, linkage_patch: SGPB, linked_chain: A, linked_ires: null, linked_resid: 520, resid: 4922, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4922, resid: 4923, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4923, resid: 4924, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4924, resid: 4925, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4922, resid: 4926, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4926, resid: 4927, resname: ANE5AC}
+  root: 4922
+  segid: CARE
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4928, 4929, 4930]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4928, 4929, 4930]
+  residues:
+    1: {ires: 1, linkage: SGPA, linkage_patch: SGPA, linked_chain: A, linked_ires: null, linked_resid: 540, resid: 4928, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4928, resid: 4929, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4929, resid: 4930, resname: ANE5AC}
+  root: 4928
+  segid: CARF
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4931, 4932, 4933, 4934, 4935, 4936]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4931, 4932, 4933, 4934, 4935, 4936]
+  residues:
+    1: {ires: 1, linkage: SGPB, linkage_patch: SGPB, linked_chain: A, linked_ires: null, linked_resid: 560, resid: 4931, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4931, resid: 4932, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4932, resid: 4933, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4933, resid: 4934, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4931, resid: 4935, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4935, resid: 4936, resname: ANE5AC}
+  root: 4931
+  segid: CARG
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4937, 4938, 4939]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4937, 4938, 4939]
+  residues:
+    1: {ires: 1, linkage: SGPA, linkage_patch: SGPA, linked_chain: A, linked_ires: null, linked_resid: 580, resid: 4937, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4937, resid: 4938, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4938, resid: 4939, resname: ANE5AC}
+  root: 4937
+  segid: CARH
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4940, 4941, 4942, 4943, 4944, 4945]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4940, 4941, 4942, 4943, 4944, 4945]
+  residues:
+    1: {ires: 1, linkage: SGPB, linkage_patch: SGPB, linked_chain: A, linked_ires: null, linked_resid: 600, resid: 4940, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4940, resid: 4941, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4941, resid: 4942, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4942, resid: 4943, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4940, resid: 4944, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4944, resid: 4945, resname: ANE5AC}
+  root: 4940
+  segid: CARI
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4946, 4947, 4948]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4946, 4947, 4948]
+  residues:
+    1: {ires: 1, linkage: SGPA, linkage_patch: SGPA, linked_chain: A, linked_ires: null, linked_resid: 620, resid: 4946, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4946, resid: 4947, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4947, resid: 4948, resname: ANE5AC}
+  root: 4946
+  segid: CARJ
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4949, 4950, 4951, 4952, 4953, 4954]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4949, 4950, 4951, 4952, 4953, 4954]
+  residues:
+    1: {ires: 1, linkage: SGPB, linkage_patch: SGPB, linked_chain: A, linked_ires: null, linked_resid: 640, resid: 4949, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4949, resid: 4950, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4950, resid: 4951, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4951, resid: 4952, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4949, resid: 4953, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4953, resid: 4954, resname: ANE5AC}
+  root: 4949
+  segid: CARK
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4955, 4956, 4957]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4955, 4956, 4957]
+  residues:
+    1: {ires: 1, linkage: TGPA, linkage_patch: TGPA, linked_chain: A, linked_ires: null, linked_resid: 451, resid: 4955, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4955, resid: 4956, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4956, resid: 4957, resname: ANE5AC}
+  root: 4955
+  segid: CARL
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4958, 4959, 4960, 4961, 4962, 4963]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4958, 4959, 4960, 4961, 4962, 4963]
+  residues:
+    1: {ires: 1, linkage: TGPB, linkage_patch: TGPB, linked_chain: A, linked_ires: null, linked_resid: 471, resid: 4958, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4958, resid: 4959, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4959, resid: 4960, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4960, resid: 4961, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4958, resid: 4962, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4962, resid: 4963, resname: ANE5AC}
+  root: 4958
+  segid: CARM
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4964, 4965, 4966]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4964, 4965, 4966]
+  residues:
+    1: {ires: 1, linkage: TGPA, linkage_patch: TGPA, linked_chain: A, linked_ires: null, linked_resid: 491, resid: 4964, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4964, resid: 4965, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4965, resid: 4966, resname: ANE5AC}
+  root: 4964
+  segid: CARN
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4967, 4968, 4969, 4970, 4971, 4972]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4967, 4968, 4969, 4970, 4971, 4972]
+  residues:
+    1: {ires: 1, linkage: TGPB, linkage_patch: TGPB, linked_chain: A, linked_ires: null, linked_resid: 511, resid: 4967, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4967, resid: 4968, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4968, resid: 4969, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4969, resid: 4970, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4967, resid: 4971, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4971, resid: 4972, resname: ANE5AC}
+  root: 4967
+  segid: CARO
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4973, 4974, 4975]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4973, 4974, 4975]
+  residues:
+    1: {ires: 1, linkage: TGPA, linkage_patch: TGPA, linked_chain: A, linked_ires: null, linked_resid: 531, resid: 4973, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4973, resid: 4974, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4974, resid: 4975, resname: ANE5AC}
+  root: 4973
+  segid: CARP
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4976, 4977, 4978, 4979, 4980, 4981]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4976, 4977, 4978, 4979, 4980, 4981]
+  residues:
+    1: {ires: 1, linkage: TGPB, linkage_patch: TGPB, linked_chain: A, linked_ires: null, linked_resid: 551, resid: 4976, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4976, resid: 4977, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4977, resid: 4978, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4978, resid: 4979, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4976, resid: 4980, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4980, resid: 4981, resname: ANE5AC}
+  root: 4976
+  segid: CARQ
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4982, 4983, 4984]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4982, 4983, 4984]
+  residues:
+    1: {ires: 1, linkage: TGPA, linkage_patch: TGPA, linked_chain: A, linked_ires: null, linked_resid: 571, resid: 4982, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4982, resid: 4983, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4983, resid: 4984, resname: ANE5AC}
+  root: 4982
+  segid: CARR
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4985, 4986, 4987, 4988, 4989, 4990]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4985, 4986, 4987, 4988, 4989, 4990]
+  residues:
+    1: {ires: 1, linkage: TGPB, linkage_patch: TGPB, linked_chain: A, linked_ires: null, linked_resid: 591, resid: 4985, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4985, resid: 4986, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4986, resid: 4987, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4987, resid: 4988, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4985, resid: 4989, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4989, resid: 4990, resname: ANE5AC}
+  root: 4985
+  segid: CARS
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4991, 4992, 4993]
+  grs: |
+    1 AGALNA
+    2 - 13B: BGAL
+    3 - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4991, 4992, 4993]
+  residues:
+    1: {ires: 1, linkage: TGPA, linkage_patch: TGPA, linked_chain: A, linked_ires: null, linked_resid: 611, resid: 4991, resname: AGALNA}
+    2: {ires: 2, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4991, resid: 4992, resname: BGAL}
+    3: {ires: 3, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 2, linked_resid: 4992, resid: 4993, resname: ANE5AC}
+  root: 4991
+  segid: CART
+  type: o-linked
+- chain: A
+  glycan_list:
+    A: [4994, 4995, 4996, 4997, 4998, 4999]
+  grs: |
+    1 BGALNA
+    5 - 13B: BGAL
+    6 - - 23A: ANE5AC
+    2 - 16B: BGLCNA
+    3 - - 14B: BGAL
+    4 - - - 23A: ANE5AC
+  patches: {}
+  residue_list: [4994, 4995, 4996, 4997, 4998, 4999]
+  residues:
+    1: {ires: 1, linkage: TGPB, linkage_patch: TGPB, linked_chain: A, linked_ires: null, linked_resid: 631, resid: 4994, resname: BGALNA}
+    2: {ires: 2, linkage: 16BB, linkage_patch: 16BT, linked_chain: A, linked_ires: 1, linked_resid: 4994, resid: 4995, resname: BGLCNA}
+    3: {ires: 3, linkage: 14BB, linkage_patch: 14BB, linked_chain: A, linked_ires: 2, linked_resid: 4995, resid: 4996, resname: BGAL}
+    4: {ires: 4, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 3, linked_resid: 4996, resid: 4997, resname: ANE5AC}
+    5: {ires: 5, linkage: 13BB, linkage_patch: 13BB, linked_chain: A, linked_ires: 1, linked_resid: 4994, resid: 4998, resname: BGAL}
+    6: {ires: 6, linkage: 23AB, linkage_patch: SA23AB, linked_chain: A, linked_ires: 5, linked_resid: 4998, resid: 4999, resname: ANE5AC}
+  root: 4994
+  segid: CARU
+  type: o-linked
+
