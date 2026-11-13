@@ -1,6 +1,6 @@
 # SiiE–MUC1 structural project (docking + MD)
 
-> **Status: scrapped, Sept 2026.** Kept as a record and so the pipeline can be reused.
+
 
 **Question:** does the *Salmonella* Typhimurium giant adhesin **SiiE** bind the mucin **MUC1**, and how do **terminal sialic acids** and **Ca²⁺** change that binding?
 
